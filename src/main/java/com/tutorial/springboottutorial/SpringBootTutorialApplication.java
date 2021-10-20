@@ -17,7 +17,7 @@ public class SpringBootTutorialApplication {
 
 	@GetMapping
 	public List<String> hello() {
-		return List.of("Hello", "World");
+		return List.of("Hello", "World", "Spring Boot");
 	}
 
 }
